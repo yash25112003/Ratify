@@ -259,6 +259,9 @@ object HealthMeasurementHelper {
     }
 }
 
+// Generative AI Used: ChatGPT (OpenAI, November 28, 2024)
+// Purpose: Needed help implementing video frame extraction from MediaMetadataRetriever
+// Prompt: "How do I extract frames from a video file at specific time intervals using MediaMetadataRetriever in Android?"
 
 private fun MediaMetadataRetriever.setDataSource(contentResolver: ContentResolver, uri: Uri) {
     val parcelFileDescriptor = contentResolver.openFileDescriptor(uri, "r")
