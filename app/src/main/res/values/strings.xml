@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ratify</string>
+    <string name="ratify">Ratify</string>
+    <string name="record_health_data">Record Health Data</string>
+    <string name="delete_all_recorded_data">Delete All Recorded Data</string>
+    <string name="action_settings">Settings</string> <!-- ADD THIS LINE -->
+
+    <string-array name="symptoms_array">
+        <item>Nausea</item>
+        <item>Headache</item>
+        <item>Diarrhea</item>
+        <item>Sore Throat</item>
+        <item>Fever</item>
+        <item>Muscle Ache</item>
+        <item>Loss of Smell or Taste</item>
+        <item>Cough</item>
+        <item>Shortness of Breath</item>
+        <item>Feeling tired</item>
+    </string-array>
+</resources>
