@@ -5,6 +5,9 @@
 ## Program Description
 This health monitoring application helps users track their vital signs and symptoms through a simple three-screen interface. The app starts with a main screen where users can choose to record new health data or delete existing records. When recording data, users measure heart rate by uploading a video file that gets processed to detect pulse patterns, and respiratory rate using movement data from provided CSV files. After obtaining these measurements, users proceed to a symptom tracking screen where they can rate common symptoms on a five-star scale. All information is stored securely on the device using Android's Room database, and users can completely erase their data at any time with a single tap.
 
+## Youtube Link
+https://youtube.com/shorts/sw5_ALCBwjY
+
 ## Generative AI Acknowledgment
 Portions of the code in this project were generated with assistance from ChatGPT, an AI tool developed by OpenAI.
 
@@ -30,5 +33,4 @@ private fun extractVideoFrames(retriever: MediaMetadataRetriever, intervalMs: Lo
     return frameList
 }
 
-## Youtube Link
-https://youtube.com/shorts/sw5_ALCBwjY
+
